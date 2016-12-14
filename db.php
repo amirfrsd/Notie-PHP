@@ -1,6 +1,6 @@
 <?php
   session_start();
-  mysql_connect("localhost", "amirfars_myDBUse", "amir4sad");
+  mysql_connect("localhost", "dbuser", "dbpass");
   mysql_select_db("amirfars_myDB"); 
 function user_login ($username, $password) { 
   $username = mysql_real_escape_string($username); 
